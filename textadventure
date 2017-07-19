@@ -1,0 +1,34 @@
+start = '''
+It's 7:15am and you missed all of your alarms. Its a wensday and Girls Who Code starts at 9am.
+You scamble to get ready and run outside. You live in Brooklyn so you have many options but must pick the fastest route.
+'''
+
+def runninglate():
+    start = '''
+    It's 7:15am and you missed all of your alarms. Its a wensday and Girls Who Code starts at 9am.
+    You scamble to get ready and run outside. You live in Brooklyn so you have many options but must pick the fastest route.
+    '''
+
+    print(start)
+
+    print("Type 'train' to go on the train or 'run' to run.")        user_input = input()
+    if user_input == "train"
+        print("You decide to go on the train and there happens to be train delay...this sucks")
+        print("Type 'get off' to get off the train and transfer or 'wait' to wait out the delay in the cool ac.")
+        user_input = input()
+        if user_input == "get off":
+            print("Transfering worked! You arrived right on time")
+        else:
+            print("Ahhh that cool ac was nice for THIRTY MINUTES... your super late")
+
+            if user_input == "run":
+                print("You decide to run to GWC and there happens to be construction where your usual path takes place")
+                print("Type 'bridge' to run the brooklyn bridge or 'bus' to ride the bus")
+                user_input = input()
+                if user_input == "bridge":
+                    print("You ran at 8mph but arrived a sweaty swamp..")
+                else:
+                    print("Traffic in the city is crazy...your 20 minutes late..at least you tried")
+
+
+runninglate()
